@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Handmade", "Handmade\Handmade.vcxproj", "{37A5EE20-2372-492C-4C8B-37D438B77EBA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HandmadeEngine", "HandmadeEngine\HandmadeEngine.vcxproj", "{8D354E17-7903-421D-6297-B2434E041E82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Dist|x64 = Dist|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37A5EE20-2372-492C-4C8B-37D438B77EBA}.Debug|x64.ActiveCfg = Debug|x64
+		{37A5EE20-2372-492C-4C8B-37D438B77EBA}.Debug|x64.Build.0 = Debug|x64
+		{37A5EE20-2372-492C-4C8B-37D438B77EBA}.Dist|x64.ActiveCfg = Dist|x64
+		{37A5EE20-2372-492C-4C8B-37D438B77EBA}.Dist|x64.Build.0 = Dist|x64
+		{37A5EE20-2372-492C-4C8B-37D438B77EBA}.Release|x64.ActiveCfg = Release|x64
+		{37A5EE20-2372-492C-4C8B-37D438B77EBA}.Release|x64.Build.0 = Release|x64
+		{8D354E17-7903-421D-6297-B2434E041E82}.Debug|x64.ActiveCfg = Debug|x64
+		{8D354E17-7903-421D-6297-B2434E041E82}.Debug|x64.Build.0 = Debug|x64
+		{8D354E17-7903-421D-6297-B2434E041E82}.Dist|x64.ActiveCfg = Dist|x64
+		{8D354E17-7903-421D-6297-B2434E041E82}.Dist|x64.Build.0 = Dist|x64
+		{8D354E17-7903-421D-6297-B2434E041E82}.Release|x64.ActiveCfg = Release|x64
+		{8D354E17-7903-421D-6297-B2434E041E82}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

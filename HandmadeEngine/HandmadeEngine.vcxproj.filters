@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EngineSrc">
+      <UniqueIdentifier>{23EE8BD1-8F58-4048-D896-F1ED44401E9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineSrc\Core">
+      <UniqueIdentifier>{5B604E01-472E-4207-30C2-B22D1C2F1E6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineSrc\Core\Debug">
+      <UniqueIdentifier>{110334EA-FD91-BDB3-A6B0-D1AE921ECE59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineSrc\Core\Logging">
+      <UniqueIdentifier>{F16BB9C6-DD65-E218-C6D2-7829B26B4885}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EngineSrc\EngineSrc\Core\Core.h">
+      <Filter>EngineSrc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineSrc\EngineSrc\Core\Debug\Instrumentor.h">
+      <Filter>EngineSrc\Core\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineSrc\EngineSrc\Core\Debug\TimeStep.h">
+      <Filter>EngineSrc\Core\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineSrc\EngineSrc\Core\EntryPoint.h">
+      <Filter>EngineSrc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineSrc\EngineSrc\Core\Logging\Log.h">
+      <Filter>EngineSrc\Core\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineSrc\HandmadeEngine.h" />
+    <ClInclude Include="EngineSrc\HandmadePCH.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EngineSrc\EngineSrc\Core\Logging\Log.cpp">
+      <Filter>EngineSrc\Core\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineSrc\HandmadePCH.cpp" />
+  </ItemGroup>
+</Project>
